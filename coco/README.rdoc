@@ -1,0 +1,6 @@
+= coco
+
+Describe your project here
+
+:include:coco.rdoc
+
