@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 require 'gli'
+require 'color'
 begin # XXX: Remove this begin/rescue before distributing your app
 require 'coco'
 rescue LoadError
