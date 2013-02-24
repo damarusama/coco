@@ -12,7 +12,7 @@ end
 
 include GLI::App
 
-program_desc 'Describe your application here'
+program_desc 'COnsole COlor conversion and palette creation'
 
 version Coco::VERSION
 
@@ -24,7 +24,7 @@ default_value 'the default'
 arg_name 'The name of the argument'
 flag [:f,:flagname]
 
-desc 'Describe hex here'
+desc 'Convert from hex'
 arg_name 'Describe arguments to hex here'
 command :hex do |c|
   c.desc 'Describe a switch to hex'
